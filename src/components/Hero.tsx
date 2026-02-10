@@ -46,22 +46,6 @@ const Hero = () => {
 
     return (
         <div className="relative flex flex-col h-full w-full overflow-hidden" id="home">
-            {/* Background Effects */}
-            <div className="absolute top-[-300px] left-0 z-[1] w-full h-full object-cover opacity-30 pointer-events-none overflow-hidden">
-                <motion.div
-                    animate={{
-                        scale: [1, 1.2, 1],
-                        opacity: [0.3, 0.5, 0.3],
-                    }}
-                    transition={{
-                        duration: 8,
-                        repeat: Infinity,
-                        ease: "easeInOut"
-                    }}
-                    className="w-[800px] h-[800px] bg-purple-900 rounded-full blur-[100px] absolute -top-40 -left-20"
-                ></motion.div>
-            </div>
-
             <motion.div
                 variants={containerVariants}
                 initial="hidden"
