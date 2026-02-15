@@ -11,7 +11,7 @@ const Projects = () => {
     const projects = [
         {
             title: "SkillShare Platform",
-            desc: "A comprehensive skill-sharing platform built with Next.js and Tailwind CSS, featuring course management and student interactions.",
+            desc: "A comprehensive e-commerce platform originally decided to be a skill sharing experience, built with Next.js and Tailwind CSS, featuring product management and user interactions.",
             tags: ["Next.js", "Tailwind", "TypeScript"],
             images: ["/SkillShare1.svg", "/SkillShare2.svg", "/SkillShare3.svg"],
         },
